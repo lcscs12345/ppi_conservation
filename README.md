@@ -1,6 +1,6 @@
 ### Conservation of protein-protein interactions (PPIs)
 
-Lim, C.S., Mace, P., Fineran P.C. Gardner, P.P. (2024) Towards a phylogenetically-informed approach to solve protein-protein interactions. Manuscript in preparation.
+Lim, C.S., Mace, P., Fineran P.C. Gardner, P.P. (2024) Towards a phylogenetically-informed approach to solving protein-protein interactions. Manuscript in preparation.
 
 - All figures for the manuscript can be found in [`figs`](https://github.com/lcscs12345/ppi_conservation/tree/main/figs).
 - [ppi_conservation.ipynb](https://github.com/lcscs12345/ppi_conservation/blob/main/jupyter_notebooks/ppi_conservation.ipynb) demonstrates the heterogeneity between eight PPI databases, revealing that most PPI entries have been not been validated across species. Related to Fig 1, 2 and 3.
@@ -10,6 +10,10 @@ Lim, C.S., Mace, P., Fineran P.C. Gardner, P.P. (2024) Towards a phylogeneticall
 
 ```
 📦ppi_conservation
+ ┣ 📂data
+ ┃ ┣ 📜selected.csv
+ ┃ ┣ 📜unsolved.csv
+ ┃ ┣ 📜WNT5A_HUMAN_and_ROR2_HUMAN.pdb.gz
  ┣ 📂figs
  ┃ ┣ 📜barplot_counts_conserved_ppi.pdf
  ┃ ┣ 📜barplot_unsolved_complexes.pdf
