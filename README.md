@@ -41,7 +41,6 @@ Lim, C.S., Mace, P., Fineran P.C. Gardner, P.P. (2024) Towards a phylogeneticall
  ┃ ┃ ┗ 📜unsolved_keggpath_ids.pkl.gz
  ┃ ┗ 📂wnt_ror
  ┃ ┃ ┗ 📂esmflow_out (available on 10.5281/zenodo.14020181)
- ┃ ┃ ┣ 📜WNT5A_HUMAN_and_ROR2_HUMAN.pdb.gz
  ┃ ┃ ┣ 📜contacts_x.pkl.gz
  ┃ ┃ ┣ 📜dist_mats.pkl.gz
  ┃ ┃ ┣ 📜idmapping_2024_05_13.fasta.gz
