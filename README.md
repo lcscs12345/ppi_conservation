@@ -11,9 +11,55 @@ Lim, C.S., Mace, P., Fineran P.C. Gardner, P.P. (2024) Towards a phylogeneticall
 ```
 📦ppi_conservation
  ┣ 📂data
- ┃ ┣ 📜selected.csv
- ┃ ┣ 📜unsolved.csv
- ┃ ┣ 📜WNT5A_HUMAN_and_ROR2_HUMAN.pdb.gz
+ ┃ ┣ 📂dbs
+ ┃ ┃ ┣ 📜biogrid_.pkl.gz
+ ┃ ┃ ┣ 📜bioplex_.pkl.gz
+ ┃ ┃ ┣ 📜db_cons.pkl.gz
+ ┃ ┃ ┣ 📜db_cons_ids.pkl.gz
+ ┃ ┃ ┣ 📜dip_.pkl.gz
+ ┃ ┃ ┣ 📜dstack.pkl.gz
+ ┃ ┃ ┣ 📜dstack_species.pkl.gz
+ ┃ ┃ ┣ 📜idmapping.pkl.gz (available on 10.5281/zenodo.14020181)
+ ┃ ┃ ┣ 📜intact_.pkl.gz
+ ┃ ┃ ┣ 📜mentha_.pkl.gz
+ ┃ ┃ ┣ 📜mint_.pkl.gz
+ ┃ ┃ ┣ 📜overlap_coefs.pkl.gz
+ ┃ ┃ ┣ 📜overlap_coefs_rand.pkl.gz
+ ┃ ┃ ┣ 📜pdb_ppi.pkl.gz
+ ┃ ┃ ┣ 📜signor_.pkl.gz
+ ┃ ┃ ┣ 📜solved_KEGG.pkl.gz
+ ┃ ┃ ┣ 📜solved_complexes.pkl.gz
+ ┃ ┃ ┣ 📜solved_keggpath.pkl.gz
+ ┃ ┃ ┣ 📜solved_keggpath_ids.pkl.gz
+ ┃ ┃ ┣ 📜string_.pkl.gz (available on 10.5281/zenodo.14020181)
+ ┃ ┃ ┣ 📜unsolved.pkl.gz
+ ┃ ┃ ┣ 📜unsolved_KEGG.pkl.gz
+ ┃ ┃ ┣ 📜unsolved_KEGG2.pkl.gz
+ ┃ ┃ ┣ 📜unsolved_complexes.pkl.gz
+ ┃ ┃ ┣ 📜unsolved_keggpath.pkl.gz
+ ┃ ┃ ┣ 📜unsolved_keggpath2.pkl.gz
+ ┃ ┃ ┗ 📜unsolved_keggpath_ids.pkl.gz
+ ┃ ┗ 📂wnt_ror
+ ┃ ┃ ┗ 📂esmflow_out (available on 10.5281/zenodo.14020181)
+ ┃ ┃ ┣ 📜WNT5A_HUMAN_and_ROR2_HUMAN.pdb.gz
+ ┃ ┃ ┣ 📜contacts_x.pkl.gz
+ ┃ ┃ ┣ 📜dist_mats.pkl.gz
+ ┃ ┃ ┣ 📜idmapping_2024_05_13.fasta.gz
+ ┃ ┃ ┣ 📜ipr.pkl.gz
+ ┃ ┃ ┣ 📜lineages.pkl.gz
+ ┃ ┃ ┣ 📜pro.domtblout
+ ┃ ┃ ┣ 📜pro.pkl.gz
+ ┃ ┃ ┣ 📜ror.hmm
+ ┃ ┃ ┣ 📜selected.csv
+ ┃ ┃ ┣ 📜selected.pkl.gz
+ ┃ ┃ ┣ 📜uniprotkb_ROR1_2024_04_15.fasta.gz
+ ┃ ┃ ┣ 📜uniprotkb_ROR2_2024_04_15.fasta.gz
+ ┃ ┃ ┣ 📜uniprotkb_WNT5A_2024_04_15.fasta.gz
+ ┃ ┃ ┣ 📜uniprotkb_WNT5B_2024_04_15.fasta.gz
+ ┃ ┃ ┣ 📜unsolved.csv
+ ┃ ┃ ┣ 📜wnt.hmm
+ ┃ ┃ ┣ 📜wnt_ror.csv
+ ┃ ┃ ┗ 📜wnt_ror.hmm
  ┣ 📂figs
  ┃ ┣ 📜barplot_counts_conserved_ppi.pdf
  ┃ ┣ 📜barplot_unsolved_complexes.pdf
